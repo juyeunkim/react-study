@@ -19,8 +19,11 @@ class Login extends React.Component{
     submitHandler = (e) => {
         e.preventDefault();
 
-        alert('로그인 성공')
-        // TODO : axios
+        // let id = this.state.id;
+        // let pw = this.state.id;
+
+        // TODO :   axios
+        //          form 유효성 검정
         this.props.history.push("/");
     }
 
